@@ -1,1 +1,1 @@
-#/usr/bin/env python3# -*- coding: utf-8 -*-"""Created on Mon Sep 18 09:26:41 2023@author: ranjiths"""
+#/usr/bin/env python3# -*- coding: utf-8 -*-"""Created on Mon Sep 18 09:26:41 2023@author: ranjiths"""from pythtb import * from pythtb import *import matplotlib. pyplot as plt# a 1D model a_1_lattice_vector = [[1.0]]a_1_d_orbital = [[0.0]]my_model = tb_model(1, 1, a_1_lattice_vector, a_1_d_orbital) # spin default = 1 spinlessmy_model.set_hop ( -1., 0, 0, [1] )
